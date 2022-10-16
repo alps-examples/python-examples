@@ -20,7 +20,8 @@ class PalindromTest(unittest.TestCase):
         self.assertEqual(is_palindrom('Dienstmannamtsneid'), True)
 
         self.assertEqual(is_palindrom('Adam, ritt Irma da?'), True)
-        self.assertEqual(is_palindrom('Eins nutzt uns: Amore. Die Rederei da, die Rederei der Omas, nutzt uns nie.'), True)
+        self.assertEqual(is_palindrom('Eins nutzt uns: Amore. Die Rederei da, die Rederei der Omas, nutzt uns nie.'),
+                         True)
 
         self.assertEqual(is_palindrom('Test'), False)
         self.assertEqual(is_palindrom('Beispiel'), False)

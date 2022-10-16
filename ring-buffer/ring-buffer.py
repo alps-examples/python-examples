@@ -18,6 +18,7 @@ class RingBuffer:
 
     Assumption: Butter shall raise error on overflow.
     """
+
     def __init__(self, number_rows: int, number_entries: int, zeros=False):
         self.number_rows = number_rows
         # Buffer allocates one more element than `number_entries` to be able to assume
